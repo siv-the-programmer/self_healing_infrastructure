@@ -30,8 +30,8 @@ A lightweight Python-based project demonstrating self-healing Docker containers.
 
 ### Clone the Repository
 ```
-git clone 
-cd aws_projects
+git clone https://github.com/siv-the-programmer/self_healing_infrastructure
+cd self_healing_infrastructure
 ```
 # Build the Docker Image
 
@@ -66,7 +66,7 @@ This creates a simple self-healing Docker setup.
 Project Structure
 -
 ```
-self_healing_docker/
+self_healing_infrastructure/
 ├─ app.py          # Container heartbeat script
 ├─ monitor.py      # Monitor & self-healing script
 ├─ Dockerfile      # Docker container setup
