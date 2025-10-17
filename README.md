@@ -73,7 +73,7 @@ self_healing_docker/
 ├─ .gitignore      # Ignored files (env, cache, logs)
 ├─ README.md       # Project documentation
 ```
--
+
 Still To Be Done / Roadmap
 -
  Full Automation: Schedule monitor.py to run continuously (e.g., system service, cron job).
@@ -84,7 +84,6 @@ Still To Be Done / Roadmap
 
  Advanced Health Checks: Integrate health-check scripts beyond just “is it running?”
 
- -
 
 # The project demonstrates the basics of container resilience and is ready for further automation and scaling.
 
