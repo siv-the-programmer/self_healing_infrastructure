@@ -49,7 +49,7 @@ python monitor.py
 The monitor script will check if the container is running every time it is executed and start it if needed. Run it in the background or as a service for continuous monitoring.
 
 ⚙️ How It Works
---
+-
 ```
 [ app.py running inside container ]
            ^
@@ -65,13 +65,14 @@ This creates a simple self-healing Docker setup.
 ```
 Project Structure
 -
+```
 self_healing_docker/
 ├─ app.py          # Container heartbeat script
 ├─ monitor.py      # Monitor & self-healing script
 ├─ Dockerfile      # Docker container setup
 ├─ .gitignore      # Ignored files (env, cache, logs)
 ├─ README.md       # Project documentation
-
+```
 -
 Still To Be Done / Roadmap
 -
@@ -82,8 +83,6 @@ Still To Be Done / Roadmap
  Logging & Alerts: Add logging and notifications (Slack, Email) on container failure/restart.
 
  Advanced Health Checks: Integrate health-check scripts beyond just “is it running?”
-
- Docker Compose: Orchestrate multiple services with a self-healing setup.
 
  -
 
