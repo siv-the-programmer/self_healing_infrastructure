@@ -30,7 +30,7 @@ A lightweight Python-based project demonstrating self-healing Docker containers.
 
 ### Clone the Repository
 ```
-git clone https://github.com/yourusername/aws_projects.git
+git clone 
 cd aws_projects
 ```
 # Build the Docker Image
